@@ -131,3 +131,13 @@ input[type="range"]{
         transform: rotate(360deg);
     }
 }
+
+@media (max-width: 1100px) {
+    .mp3{
+        width: 100%;
+    }
+    .opcionesReproduccion img{
+        padding: 2px;
+    }
+
+}
