@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div id="lista">
+        <audio id="1" class="active" src="media/mp3/malamanera.mp3"></audio>
+        <audio id="2" class="" src="media/mp3/reproches.mp3"></audio>
+        <audio id="3" class="" src="media/mp3/tecknocity.mp3"></audio>
+    </div>
+
+    <div class="mp3">
+        <div class="nameMusic" id="nombre">
+            
+            
+            <p>ARTISTA</p>
+        </div>
+
+        <div class="imagenes" id="imagen">
+   <div>
+            <img class="imgCancion" id="imagenCancion" src="media/img/malamanera.jpg" alt="">
+        </div>
+        </div>
+        <div style="margin-left: 10px;">
+            <img src="media/img/simbolo-de-interfaz-de-subir-volumen.png" style="width: 20px;" alt="">
+          <input type="range" id="volumen" min="0" max="1" step="0.01" value="1">
+        </div>
+
+        <div class="tiempo">
+            <div id="duracion">
+                <input type="range" id="barraDuracion" min="0" value="0">
+            </div>
+            <div id="duracionTiempo"> 0:00</div>
+        </div>
+
+        <div class="opcionesReproduccion">
+            <img id="botonBucle" src="./media/img/lazo.png" alt="">
+            <img id="botonBack" src="./media/img/anterior-boton.png" alt="">
+            <img id="botonPlay" src="./media/img/boton-de-play.png" alt="">
+            <img id="botonNext" src="./media/img/siguiente-boton.png" alt="">
+            <img id="botonAleatorio" src="./media/img/aleatorio.png" alt="">
+            
+        </div>
+        
+        
+
+        <div class="listaMusica">
+
+            <div class="cancionLista cancionActive" id="lista1">
+                <div class="cancionListaInfo ">
+                    <h2>Malamanera</h2>
+                    <p>Fernando Costa</p>
+                </div>
+    
+                <div class="cancionListaImg">
+                    <img  src="media/img/malamanera.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="cancionLista cancionInactive"  id="lista2">
+                <div class="cancionListaInfo">
+                    <h2>Reproches</h2>
+                    <p>Ayax y Prock</p>
+                </div>
+            
+                <div class="cancionListaImg ">
+                    <img src="media/img/reproches.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="cancionLista cancionInactive"  id="lista3">
+                <div class="cancionListaInfo">
+                    <h2>Tecknocity</h2>
+                    <p>Parckineos</p>
+                </div>
+                
+                <div class="cancionListaImg">
+                    <img src="media/img/tecknocity.jpg" alt="">
+                </div>
+            </div>
+            
+              
+        </div>
+    </div>
+</body>
+</html>
